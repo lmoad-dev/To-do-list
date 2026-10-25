@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run / Debug Todo App",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/todo_app",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build C++ Todo App"
+    }
+  ]
+}
